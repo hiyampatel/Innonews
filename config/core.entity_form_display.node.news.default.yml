@@ -4,6 +4,7 @@ status: true
 dependencies:
   config:
     - field.field.node.news.body
+    - field.field.node.news.field_category
     - field.field.node.news.field_main_image
     - image.style.thumbnail
     - node.type.news
@@ -32,6 +33,12 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
+  field_category:
+    weight: 123
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
   field_main_image:
     weight: 122
     settings:
