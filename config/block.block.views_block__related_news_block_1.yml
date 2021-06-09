@@ -1,29 +1,30 @@
-uuid: d6cb2d47-4551-49b7-b4a1-643e9a9c668b
+uuid: 9e5f410b-246f-4ade-a348-ef852ee04138
 langcode: en
 status: true
 dependencies:
   config:
-    - views.view.latest_news
+    - views.view.related_news
   module:
     - system
     - views
   theme:
     - bartik
-id: views_block__latest_news_block_1
+id: views_block__related_news_block_1
 theme: bartik
 region: content
-weight: -7
+weight: -2
 provider: null
-plugin: 'views_block:latest_news-block_1'
+plugin: 'views_block:related_news-block_1'
 settings:
-  id: 'views_block:latest_news-block_1'
+  id: 'views_block:related_news-block_1'
   label: ''
   provider: views
   label_display: visible
   views_label: ''
   items_per_page: none
+  context_mapping: {  }
 visibility:
   request_path:
     id: request_path
-    pages: /node
+    pages: '/taxonomy/term/*'
     negate: false
