@@ -1,0 +1,8 @@
+uuid: fda79db5-8e4c-41be-ad0c-4a97066838c4
+langcode: en
+status: true
+dependencies: {  }
+name: Category
+vid: category
+description: 'Use Category to group news content type.'
+weight: 0
