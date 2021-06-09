@@ -21,7 +21,7 @@ content:
     type: text_summary_or_trimmed
     weight: 0
     settings:
-      trim_length: 600
+      trim_length: 150
     third_party_settings: {  }
     region: content
   links:
