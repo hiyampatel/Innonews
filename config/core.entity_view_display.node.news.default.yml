@@ -6,6 +6,7 @@ dependencies:
     - field.field.node.news.body
     - field.field.node.news.field_category
     - field.field.node.news.field_main_image
+    - image.style.news_image_500_300_
     - node.type.news
   module:
     - image
@@ -35,7 +36,7 @@ content:
     weight: 1
     label: hidden
     settings:
-      image_style: ''
+      image_style: news_image_500_300_
       image_link: ''
     third_party_settings: {  }
     type: image

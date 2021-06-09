@@ -1,0 +1,15 @@
+uuid: 1df4e5d2-40a5-44e1-852e-f6d9bca285f9
+langcode: en
+status: true
+dependencies: {  }
+name: news_image_500_300_
+label: 'News_image (500×300)'
+effects:
+  9aa1428b-a983-4323-bb24-b930d006f67e:
+    uuid: 9aa1428b-a983-4323-bb24-b930d006f67e
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 500
+      height: 300
+      anchor: center-center
