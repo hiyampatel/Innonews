@@ -12,7 +12,7 @@ field_name: body
 entity_type: node
 bundle: news
 label: 'News body'
-description: ''
+description: 'Describing the title of the news.'
 required: true
 translatable: true
 default_value: {  }
