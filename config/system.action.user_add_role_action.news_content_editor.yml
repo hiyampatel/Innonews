@@ -1,0 +1,14 @@
+uuid: f06f3e8c-1a32-4f74-8c3c-f47c282cb66e
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.news_content_editor
+  module:
+    - user
+id: user_add_role_action.news_content_editor
+label: 'Add the News Content Editor role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: news_content_editor
