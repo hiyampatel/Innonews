@@ -1,0 +1,34 @@
+uuid: f11beff5-5929-41b8-9fb5-4807e2870f2b
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.subscribe
+    - field.field.block_content.subscribe.body
+    - field.field.block_content.subscribe.field_image
+    - image.style.thumbnail
+  module:
+    - image
+    - text
+id: block_content.subscribe.default
+targetEntityType: block_content
+bundle: subscribe
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 1
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_image:
+    weight: 0
+    label: hidden
+    settings:
+      image_style: thumbnail
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+hidden: {  }

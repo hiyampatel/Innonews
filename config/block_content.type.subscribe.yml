@@ -1,0 +1,8 @@
+uuid: 536ff5f5-2961-40cd-abd9-378839986a3c
+langcode: en
+status: true
+dependencies: {  }
+id: subscribe
+label: Subscribe
+revision: 0
+description: 'Information about free subscription.'
