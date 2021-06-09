@@ -10,7 +10,7 @@ third_party_settings:
     parent: ''
 name: News
 type: news
-description: ''
+description: 'Use News to add different news articles and updates for different categories. '
 help: ''
 new_revision: true
 preview_mode: 0
