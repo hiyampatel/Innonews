@@ -1,0 +1,14 @@
+uuid: c3919eeb-e941-4ff0-9044-93e7276bdd2d
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.news_content_editor
+  module:
+    - user
+id: user_remove_role_action.news_content_editor
+label: 'Remove the News Content Editor role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: news_content_editor
