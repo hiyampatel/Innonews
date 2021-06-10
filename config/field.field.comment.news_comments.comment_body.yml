@@ -1,0 +1,21 @@
+uuid: 95bbd996-8e59-419f-a5c8-88d7ae71c05c
+langcode: en
+status: true
+dependencies:
+  config:
+    - comment.type.news_comments
+    - field.storage.comment.comment_body
+  module:
+    - text
+id: comment.news_comments.comment_body
+field_name: comment_body
+entity_type: comment
+bundle: news_comments
+label: Comment
+description: 'Body field for News Comments.'
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long
