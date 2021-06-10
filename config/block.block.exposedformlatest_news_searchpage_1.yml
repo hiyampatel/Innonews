@@ -1,0 +1,23 @@
+uuid: 26ed859d-6a8f-4e0a-ba56-e0a249636037
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.latest_news_search
+  module:
+    - views
+  theme:
+    - bartik
+id: exposedformlatest_news_searchpage_1
+theme: bartik
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'views_exposed_filter_block:latest_news_search-page_1'
+settings:
+  id: 'views_exposed_filter_block:latest_news_search-page_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+visibility: {  }
