@@ -1,0 +1,8 @@
+uuid: f2daf458-8d29-4efe-b4ed-22dda5e1e6d5
+langcode: en
+status: true
+dependencies: {  }
+id: news_comments
+label: 'News Comments'
+target_entity_type_id: node
+description: 'Comments related to News content type.'
