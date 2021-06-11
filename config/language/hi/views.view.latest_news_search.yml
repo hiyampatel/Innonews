@@ -1,0 +1,25 @@
+label: 'नवीनतम समाचार खोजें'
+description: 'समाचार सामग्री से खोजें।'
+display:
+  default:
+    display_title: मास्टर्
+    display_options:
+      exposed_form:
+        options:
+          submit_button: लागू
+          reset_button_label: रीसेट
+          exposed_sorts_label: 'इसके अनुसार क्रमबद्ध करें'
+          sort_asc_label: आरोही
+          sort_desc_label: उतरते
+      pager:
+        options:
+          expose:
+            items_per_page_label: 'आइटम प्रति पेज'
+            offset_label: ओफ़्सेट
+      filters:
+        search_api_fulltext:
+          expose:
+            label: खोज
+      title: 'नवीनतम समाचार खोजें'
+  page_1:
+    display_title: पृष्ठ

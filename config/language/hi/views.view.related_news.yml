@@ -1,0 +1,21 @@
+label: 'सम्बंधित खबर'
+description: 'केवल टैक्सोनॉमी शर्तों से संबंधित समाचार।'
+display:
+  default:
+    display_title: मास्टर्
+    display_options:
+      exposed_form:
+        options:
+          submit_button: लागू
+          reset_button_label: रीसेट
+          exposed_sorts_label: 'इसके अनुसार क्रमबद्ध करें'
+          sort_asc_label: आरोही
+          sort_desc_label: उतरते
+      title: 'सम्बंधित खबर'
+      arguments:
+        tid:
+          admin_label: 'सम्बंधित खबर'
+          exception:
+            title: सब
+  block_1:
+    display_title: खंड

@@ -14,7 +14,7 @@ bundle: news_comments
 label: Comment
 description: 'Body field for News Comments.'
 required: true
-translatable: true
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings: {  }
