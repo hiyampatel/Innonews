@@ -1,0 +1,32 @@
+label: मुखपृष्ठ
+description: 'सभी सामग्री फ्रंट पेज पर प्रचारित की गई।'
+display:
+  default:
+    display_options:
+      empty:
+        title:
+          title: '[site:name] पर आपका स्‍वागत है'
+        area_text_custom:
+          content: 'अब तक कोई प्रथम पृष्ठ सामग्री बनाई नहीं गई है।<br/>अपनी साइट बनाना शुरू करने के लिए <a target="_blank" href="https://www.drupal.org/docs/user_guide/en/index.html">उपयोगकर्ता मार्गदर्शिका</a> का पालन करें।'
+      exposed_form:
+        options:
+          submit_button: 'लागू करें'
+          reset_button_label: 'दोबारा से स्थापित करें|'
+          exposed_sorts_label: 'क्रमबद्ध द्वारा'
+          sort_desc_label: अवरोही
+      pager:
+        options:
+          expose:
+            items_per_page_label: 'विषय प्रति पृष्ठ'
+            items_per_page_options_all_label: '-सभी-'
+            offset_label: ओफ़्सेट
+          tags:
+            previous: '‹ पहले का'
+            next: 'अगला ›'
+            first: '« प्रथम'
+            last: 'पिछले »'
+    display_title: मास्टर्
+  feed_1:
+    display_title: फ़ीड
+  page_1:
+    display_title: पृष्ठ

@@ -14,7 +14,7 @@ bundle: news
 label: Comments
 description: 'Comments field related to News Content type.'
 required: false
-translatable: false
+translatable: true
 default_value:
   -
     status: 2
