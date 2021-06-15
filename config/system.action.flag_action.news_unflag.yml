@@ -1,0 +1,15 @@
+uuid: cf2daacf-9fb1-46a9-8a2a-b1cfed46f650
+langcode: en
+status: true
+dependencies:
+  config:
+    - flag.flag.news
+  module:
+    - flag
+id: flag_action.news_unflag
+label: 'Remove from Bookmark '
+type: node
+plugin: 'flag_action:news_unflag'
+configuration:
+  flag_id: news
+  flag_action: unflag
