@@ -1,0 +1,30 @@
+uuid: ae7dd0c6-0c11-4d30-98d9-0dbb4eb31876
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: news
+label: News
+bundles:
+  - news
+entity_type: node
+global: false
+weight: 0
+flag_short: 'Add to Bookmark '
+flag_long: ''
+flag_message: 'Successfully added to bookmark.'
+unflag_short: 'Remove from Bookmark '
+unflag_long: ''
+unflag_message: 'Successfully removed from bookmark '
+unflag_denied_text: ''
+flag_type: 'entity:node'
+link_type: reload
+flagTypeConfig:
+  show_in_links: {  }
+  show_as_field: true
+  show_on_form: false
+  show_contextual_link: false
+  extra_permissions:
+    owner: '0'
+linkTypeConfig: {  }
