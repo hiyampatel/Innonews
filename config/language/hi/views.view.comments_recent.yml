@@ -2,6 +2,7 @@ label: 'हाल के कमेन्ट'
 description: 'हाल की टिप्पणियाँ'
 display:
   default:
+    display_title: Master
     display_options:
       title: 'हाल के कमेन्ट'
       empty:

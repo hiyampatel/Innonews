@@ -7,7 +7,15 @@ display:
           submit_button: फिल्टर
           reset_button_label: 'दोबारा से स्थापित करें|'
           exposed_sorts_label: 'क्रमबद्ध द्वारा'
+          sort_asc_label: Asc
           sort_desc_label: अवरोही
+      pager:
+        options:
+          tags:
+            previous: '‹ Previous'
+            next: 'Next ›'
+            first: '« First'
+            last: 'Last »'
       fields:
         title:
           label: शीर्षक
@@ -45,6 +53,7 @@ display:
           expose:
             label: भाषा
       title: सामग्री
+    display_title: Master
   page_1:
     display_options:
       menu:
