@@ -1,0 +1,29 @@
+uuid: 99442a36-58ac-48bf-9dd5-aa4f1094dafd
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_users
+    - taxonomy.vocabulary.category
+id: taxonomy_term.category.field_users
+field_name: field_users
+entity_type: taxonomy_term
+bundle: category
+label: Users
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:user'
+  handler_settings:
+    include_anonymous: true
+    filter:
+      type: _none
+    target_bundles: null
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+field_type: entity_reference
