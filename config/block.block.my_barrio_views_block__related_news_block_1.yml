@@ -1,0 +1,30 @@
+uuid: 812c1a12-c953-413d-a5dd-b4ae8179197a
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.related_news
+  module:
+    - system
+    - views
+  theme:
+    - my_barrio
+id: my_barrio_views_block__related_news_block_1
+theme: my_barrio
+region: content
+weight: -2
+provider: null
+plugin: 'views_block:related_news-block_1'
+settings:
+  id: 'views_block:related_news-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+  context_mapping: {  }
+visibility:
+  request_path:
+    id: request_path
+    pages: '/taxonomy/term/*'
+    negate: false

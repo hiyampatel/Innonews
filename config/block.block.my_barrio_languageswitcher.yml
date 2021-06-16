@@ -1,0 +1,20 @@
+uuid: 91812db4-7cb4-4093-abef-afcae625d07f
+langcode: en
+status: true
+dependencies:
+  module:
+    - language
+  theme:
+    - my_barrio
+id: my_barrio_languageswitcher
+theme: my_barrio
+region: highlighted
+weight: -9
+provider: null
+plugin: 'language_block:language_interface'
+settings:
+  id: 'language_block:language_interface'
+  label: 'Language switcher'
+  provider: language
+  label_display: '0'
+visibility: {  }

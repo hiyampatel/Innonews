@@ -1,0 +1,22 @@
+uuid: f3f39bed-7edc-48a9-b953-da8c30f7535f
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - my_barrio
+_core:
+  default_config_hash: oXUb3JZR2WW5VOdw4HrhRicCsq51mCgLfRyvheG68ck
+id: my_barrio_breadcrumbs
+theme: my_barrio
+region: breadcrumb
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  provider: system
+  label_display: '0'
+visibility: {  }
