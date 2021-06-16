@@ -19,14 +19,7 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
-  field_users:
-    weight: 1
-    label: above
-    settings:
-      link: true
-    third_party_settings: {  }
-    type: entity_reference_label
-    region: content
 hidden:
+  field_users: true
   langcode: true
   search_api_excerpt: true
