@@ -1,0 +1,23 @@
+uuid: 4a3d2674-8de8-4e67-ba55-118e103a4299
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.latest_news_search
+  module:
+    - views
+  theme:
+    - my_barrio
+id: my_barrio_exposedformlatest_news_searchpage_1
+theme: my_barrio
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'views_exposed_filter_block:latest_news_search-page_1'
+settings:
+  id: 'views_exposed_filter_block:latest_news_search-page_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+visibility: {  }

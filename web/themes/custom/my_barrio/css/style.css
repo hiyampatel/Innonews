@@ -1,0 +1,90 @@
+/**
+ * @file
+ * Subtheme specific CSS.
+ */
+
+#navbar-main
+{
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.navbar-brand
+{
+  margin: 0;
+}
+
+.site-name-slogan
+{
+  color: #ffffff;
+  width: 70%;
+  margin-left: 0;
+}
+
+.navbar-brand img
+{
+  width: 95px;
+  height: 95px;
+  margin-right: 20px;
+}
+
+.menu--main-site-menu .clearfix .menu-item--active-trail
+{
+  border-bottom: 2px #ffffff solid;
+}
+
+.menu--main-site-menu .clearfix .menu-item--active-trail a
+{
+  color: #ffffff;
+}
+
+#block-my-barrio-languageswitcher nav.links span
+{
+  background-color: #efefef;
+  border-radius: 0 0 10px 10px;
+  margin-bottom: 20px;
+  margin-right: 5px;
+}
+
+#block-my-barrio-languageswitcher nav.links span a
+{
+  text-decoration: none;
+  color: #054267;
+}
+
+#block-my-barrio-languageswitcher nav.links span.is-active
+{
+  background-color: #cdcdcd;
+}
+
+#main-wrapper
+{
+  margin-bottom: 30px;
+}
+
+#main-wrapper #main .block-system-breadcrumb-block
+{
+  display: none;
+}
+
+#main-wrapper .block-page-title-block
+{
+  margin-bottom: 30px;
+}
+
+.block-views-blocklatest-news-block-1 .content h1.field-content a
+{
+  font-size: 30px;
+  color: #054267;
+  text-decoration: none;
+}
+
+.block-views-blocklatest-news-block-1 .content .views-row
+{
+  margin-bottom: 30px;
+}
+
+.block-views-blocklatest-news-block-1 h2
+{
+  color: #054267;
+}
