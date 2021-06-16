@@ -1,0 +1,25 @@
+uuid: bda840e4-128f-4cf9-a8b1-ae77ecfd5e8c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.category.field_users
+    - taxonomy.vocabulary.category
+  module:
+    - text
+id: taxonomy_term.category.default
+targetEntityType: taxonomy_term
+bundle: category
+mode: default
+content:
+  description:
+    label: hidden
+    type: text_default
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  field_users: true
+  langcode: true
+  search_api_excerpt: true
