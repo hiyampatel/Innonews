@@ -93,11 +93,11 @@
     {% endif %}
   </header>
   <div{{ content_attributes.addClass('node__content', 'clearfix') }}>
+      {{ content.flag_news }}
       {{ content.body }}
       {{ content.field_main_image }}
       {{ content.field_category }}
       {{ content.links }}
-      {{ content.flag_news }}
       {{ content.field_comments }}
   </div>
 </article>

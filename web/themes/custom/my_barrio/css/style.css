@@ -100,7 +100,7 @@
 }
 
 .node--type-news .node__content .inline__links .comment-add a
-{comment field name twig template
+{
   display: none;
 }
 
@@ -154,4 +154,18 @@
 #edit-comment-body-0--description
 {
   display: none;
+}
+
+.flag-news a
+{
+  background-color: #008dff;
+  color: #ffffff;
+  padding: 5px 10px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.flag-news
+{
+  margin: 10px 0;
 }
