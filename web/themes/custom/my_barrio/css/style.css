@@ -88,3 +88,70 @@
 {
   color: #054267;
 }
+
+.node--type-news .node__content
+{
+  display: table;
+}
+
+.node--type-news .node__content .field
+{
+  display: table-row;
+}
+
+.node--type-news .node__content .inline__links .comment-add a
+{comment field name twig template
+  display: none;
+}
+
+.node--type-news .node__content .comment__content
+{
+  margin-top: 20px;
+  width: 100%;
+}
+
+#edit-comment-body-wrapper #edit-comment-body-0-format
+{
+  display: inline-block;
+  width: 100%;
+  border: #bbb solid 1px;
+  border-top: none;
+  margin-top: -1em;
+  font-size: 15px;
+}
+
+#edit-comment-body-wrapper #edit-comment-body-0-format select
+{
+  max-width: 120px;
+  padding: 0 5px;
+  margin-left: 5px;
+  font-size: 15px;
+}
+
+#edit-comment-body-wrapper #edit-comment-body-0-format fieldset
+{
+  display: flex;
+  float: left;
+  margin: 10px;
+}
+
+#edit-comment-body-wrapper #edit-comment-body-0-format #edit-comment-body-0-format-help
+{
+  float: right;
+  margin: 10px;
+}
+
+#edit-comment-body-wrapper .form-item-comment-body-0-value
+{
+  margin-bottom: 0;
+}
+
+.filter-guidelines-restricted_html ul.tips
+{
+  display: none;
+}
+
+#edit-comment-body-0--description
+{
+  display: none;
+}
