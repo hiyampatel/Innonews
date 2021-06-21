@@ -76,7 +76,6 @@
 {
   font-size: 30px;
   color: #054267;
-  text-decoration: none;
 }
 
 .block-views-blocklatest-news-block-1 .content .views-row
@@ -100,7 +99,7 @@
 }
 
 .node--type-news .node__content .inline__links .comment-add a
-{comment field name twig template
+{
   display: none;
 }
 
@@ -154,4 +153,79 @@
 #edit-comment-body-0--description
 {
   display: none;
+}
+
+.flag-news a
+{
+  background-color: #008dff;
+  color: #ffffff;
+  padding: 5px 10px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.flag-news
+{
+  margin: 10px 0;
+}
+
+
+#block-my-barrio-views-block-latest-news-block-1 .views-row
+{
+  margin: 10px;
+  padding: 20px;
+  background-color: #ddd;
+}
+
+#block-my-barrio-views-block-latest-news-block-1 .views-row .views-field-field-main-image
+{
+  padding: 0 20px 10px 0;
+}
+
+#block-my-barrio-views-block-latest-news-block-1 .views-row .views-field-user-picture img
+{
+  border-radius: 20px;
+  height: 40px;
+  width: 40px;
+}
+
+#block-my-barrio-views-block-latest-news-block-1 .views-row .views-field-field-main-image
+{
+  display: inline-block;
+  max-width: 20%;
+}
+
+#block-my-barrio-views-block-latest-news-block-1 .views-row .views-field-field-category
+{
+  display: inline-block;
+  float: right;
+  margin-top: 15px;
+  width: 85%;
+}
+
+#block-my-barrio-views-block-latest-news-block-1 .views-row .views-field-field-category a
+{
+  text-decoration: none;
+  background-color: #798fc3;
+  color: #ffffff;
+  padding: 5px 10px;
+  border-radius: 15px;
+}
+
+#block-my-barrio-views-block-latest-news-block-1 .views-row .views-field-uid
+{
+  display: inline-block;
+  width: 90%;
+  margin-left: -30px;
+  margin-top: 5px;
+}
+#block-my-barrio-views-block-latest-news-block-1 .views-row .views-field-user-picture
+{
+  display: inline-block;
+  float: left;
+  width: 10%;
+}
+#block-my-barrio-views-block-latest-news-block-1 .views-row .views-field-title
+{
+  margin-bottom: 20px;
 }
